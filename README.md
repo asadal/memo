@@ -1,3 +1,5 @@
+### 이 레포지토리는 [Kidow님의 레포지토리](https://github.com/kidow/memo)에서 folk됐습니다. 개인 용도로만 사용합니다.
+
 # Subdomain Project - [Memo](https://memo.kidow.me)
 
 > - [archive.kidow.me](https://github.com/kidow/archive)
