@@ -224,7 +224,7 @@ const App: FC = () => {
               </Tooltip>
             </li>
             <li>
-              <Tooltip content={`기울임꼴 (${shortKey} + I)`}>
+              <Tooltip content={`기울임 (${shortKey} + I)`}>
                 <button className="ql-italic" />
               </Tooltip>
             </li>
@@ -251,7 +251,7 @@ const App: FC = () => {
               </Tooltip>
             </li>
             <li>
-              <Tooltip content={`할 일 목록 (${shortKey} + 6)`}>
+              <Tooltip content={`할일 목록 (${shortKey} + 6)`}>
                 <button className="ql-list" value="check" />
               </Tooltip>
             </li>
@@ -274,7 +274,7 @@ const App: FC = () => {
                   onClick={() => {
                     const selection = window.getSelection()
                     if (selection?.type !== 'Range')
-                      toast.info('텍스트를 드래그하세요.')
+                      toast.info('텍스트를 선택하세요.')
                   }}
                 />
               </Tooltip>
@@ -309,7 +309,7 @@ const App: FC = () => {
       </div>
 
       <a
-        href="https://github.com/kidow/memo"
+        href="https://github.com/asadal/memo"
         rel="noreferrer noopener"
         className="fixed top-2 right-2 hidden sm:inline-block"
         target="_blank"
