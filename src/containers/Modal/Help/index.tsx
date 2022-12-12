@@ -25,16 +25,16 @@ const HelpModal: FC<Props> = ({ isOpen, onClose }) => {
           않습니다.
         </li>
         <li>
-          혹 문의사항이 있다면{' '}
+          문의사항은{' '}
           <a
             target="_blank"
             className="underline"
-            href="mailto:wcgo2ling@gmail.com"
+            href="mailto:blaulaut@gmail.com"
             rel="noreferrer"
           >
-            wcgo2ling@gmail.com
+            blaulaut@gmail.com
           </a>
-          으로 남겨주시면 감사하겠습니다.
+          으로 남겨주시기 바랍니다.
         </li>
       </ul>
     </Modal>
